@@ -1,0 +1,1 @@
+After an introduction to the motivation and basic machinery for exponential random graph models (ERGMs), this tutorial walks through basic use of the `statnet` suite of packages for R including network manipulation and plotting and then proceeds to estimating, checking, and interpreting ERGMs.
