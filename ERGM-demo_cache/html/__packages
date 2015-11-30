@@ -1,9 +1,0 @@
-base
-network
-networkDynamic
-statnet.common
-ergm
-sna
-tergm
-ergm.count
-statnet
