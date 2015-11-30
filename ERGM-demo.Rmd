@@ -42,7 +42,7 @@ dem | dict | $2e9 | 1
 - Even if one is not explicitly interested in how other ties affect the likelihood of a tie, network effects imply a correlation of residuals, so omitting them will produce biased estimates.
     - e.g. If the U.S. and U.K. are both at war with Iraq, that fact must be considered for an unbiased estimate of the odds of the U.S. and U.K. being at war with each other.
 
-Cranmer and Desmarais (2011) used ERGM to overturn conventional international relations wisdom:
+Cranmer and Desmarais (2011) used ERGM to rebut conventional international relations wisdom on democracies going to war:
 
 ![Cranmer & Desmarais](Cranmer.png)
 
@@ -290,4 +290,4 @@ m7 = ergm(n ~ edges + mutual + nodematch('group') +
 summary(m7)
 ```
 
-The way the `gwdegree` terms are constructed, negative estimates reflect an increased likelihood on ties to higher-degree nodes. Appropriate use and interpretation of the gw- terms is an active area of study, and I am working on a paper with more detailed guidance. For now, Hunter, 2007 in Social Networks is the canonical reference, and the [statnet listserve archieve](https://mailman13.u.washington.edu/mailman/private/statnet_help/) may also be helpful.
+The way the `gwdegree` terms are constructed, negative estimates reflect an increased likelihood on ties to higher-degree nodes. Appropriate use and interpretation of the gw- terms is an active area of study, and I am working on a paper with more detailed guidance. For now, [Hunter, 2007](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2031865/) is the canonical reference, and the [statnet listserve archieve](https://mailman13.u.washington.edu/mailman/private/statnet_help/) may also be helpful.
